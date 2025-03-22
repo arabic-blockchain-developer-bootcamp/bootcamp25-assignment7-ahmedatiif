@@ -9,7 +9,6 @@ contract Assignment7 is ERC20, Ownable{
     // Fill in the parameters for the token name and symbol
      constructor(string memory _name , string memory _symbol) ERC20(_name, _symbol) Ownable (msg.sender){
      }
-
     // Function to mint tokens
     // Fill in the visibility modifier to be external
     // Set params as to address and amount
